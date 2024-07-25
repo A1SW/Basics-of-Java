@@ -1,0 +1,32 @@
+import java.util.*;
+
+public class solution{
+
+  
+  public static String CheckingTrue(int x, int y, int z, int w)
+  {
+    if(x*y == z*w)
+    {
+      return "True";
+    }
+    return "False";
+  }
+    
+  
+ 
+
+
+public static void main(String[] args) {
+  
+  Scanner sc = new Scanner(System.in);
+ int x = sc.nextInt();
+ int y = sc.nextInt();
+ int z = sc.nextInt();
+ int w = sc.nextInt();
+ sc.close();
+
+ System.out.println(CheckingTrue(x,y,z,w));
+
+  
+  
+}
