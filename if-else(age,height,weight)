@@ -1,0 +1,48 @@
+import java.util.*;
+
+public class solution{
+
+  public static void CheckOverweightFatAndSlim(int age,int height,int weight)
+  {
+     if(height == 5 && weight == 50 && age == 10)
+     {
+      System.out.println("Overweight");
+     }  
+
+    else if(height == 5 && weight ==60 )
+     {
+      System.out.print("Fat");
+     }
+
+     else if(height == 6 && weight == 50)
+     {
+      System.out.println("Slim");
+     }
+
+     else
+     {
+      System.out.println("None");
+     }
+  }
+    
+  
+ 
+
+
+public static void main(String[] args) {
+  
+  Scanner sc = new Scanner(System.in);
+  System.out.println("Enter the age");
+  int age = sc.nextInt();
+
+  System.out.println("Enter the height");
+  int height = sc.nextInt();
+
+  System.out.println("Enter the weight");
+  int weight = sc.nextInt();
+
+  CheckOverweightFatAndSlim(age,height,weight);
+  
+  
+}
+}
