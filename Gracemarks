@@ -1,0 +1,24 @@
+import java.util.*;
+
+public class solution{
+ 
+  public static void main(String[] args) {
+   Scanner sc = new Scanner(System.in);
+   System.out.println("enter the marks");
+   int marks = sc.nextInt();
+   sc.close();
+
+   if(marks<33)
+   {
+    int Totalmarks = marks + 4;
+    System.out.println(Totalmarks);
+   }
+
+   else 
+   {
+    int Totalmarks = marks;
+    System.out.println(Totalmarks);
+   }
+  
+  }
+  }
